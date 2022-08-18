@@ -1,4 +1,4 @@
-# Welcome
+# Personal Portfolio Website Version 2!
 
 Welcome to the second version of my portfolio website! I created this website to showcase my work, host a blog, and provide a method of contact. I decided to make a second version to update the layout, primarily for ease of use and organization, and to practice building with React and Next.js. You may view the live website [here]()
 
