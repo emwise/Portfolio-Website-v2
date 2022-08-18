@@ -1,0 +1,15 @@
+.column {
+  flex: 50%;
+  margin: 50px 0;
+}
+.iframe {
+  margin: 0 3rem;
+}
+@media only screen and (max-width: 768px) { 
+  .column {
+    text-align: center;
+  }
+  .iframe {
+    margin: 0;
+  }
+}

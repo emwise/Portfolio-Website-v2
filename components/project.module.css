@@ -1,0 +1,52 @@
+.container{
+  width: 80%;
+  margin: 0 auto;
+  min-height: 410px;
+  background-color: #f0fdfa;
+  border-radius: 50px;
+}
+
+.projectImage {
+  border-radius: 25px;
+  z-index: 0;
+}
+
+.right{
+  float: right;
+  margin: 0 1rem;
+}
+
+.left{
+  float: left;
+  margin: 0 1rem;
+}
+
+.caption{
+  margin: 1rem;
+  min-height: 310px;
+  padding: 0 15px 15px 15px;
+
+}
+
+.title {
+  padding: 1rem;
+}
+
+@media only screen and (max-width: 768px) { 
+  .container{
+    text-align: center;
+    margin: 0 auto;
+    width: 80%;
+  }
+  .right {
+    margin: 0 auto;
+    width: 100%;
+  }
+  .left {
+    margin: 0 auto;
+    width: 100%;
+  }
+  .caption{
+    display: block;
+  }
+}

@@ -1,0 +1,81 @@
+.borderCircle {
+  border-radius: 9999px;
+  z-index: -1;
+}
+
+.mainContainer {
+  padding: 3rem;
+  width: 75%;
+  margin: 0 auto;
+}
+
+.mainContainerFlex {
+  display: flex;
+  padding: 3rem;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.aboutMeImageContainer {
+  flex: 1 0 auto;
+  padding: 4rem;
+  margin: auto;
+}
+
+.aboutMeImage {
+  margin-bottom: 200px;
+}
+
+.imageRadius {
+  border-radius: 25px;
+}
+
+.caption {
+  text-align: center;
+  font-size: 0.7rem;
+  color: #115e59;
+  width: auto;
+}
+
+.contactPage {
+  display: flex;
+  text-align: center;
+  width: 60%;
+  margin: 150px auto;
+  min-width: fit-content;
+  background: #ccfbf1;
+  border-radius: 25px;
+}
+
+.list {
+  list-style-type: none;
+  font-size: larger;
+}
+
+.listItem {
+  margin: 2rem 0;
+}
+@media only screen and (max-width: 1200px) { 
+  .mainContainerFlex {
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 768px) { 
+  .contactPage {
+    display: block;
+    margin: 0 auto;
+  }
+  .mainContainerFlex {
+    display: block;
+    text-align: center;
+  }
+  .aboutMeImageContainer {
+    display: block;
+    margin: 0;
+    padding: 2rem 0 0 0;
+  }
+  .aboutMeImage {
+    margin-bottom: 2rem;
+  }
+}

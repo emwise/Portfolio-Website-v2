@@ -1,0 +1,40 @@
+.container {
+  text-align: center;
+  padding: 3rem;
+  width: 60%;
+  margin: 0 auto;
+  flex: 50%;
+  max-width: 400px;
+  max-height: 450px;
+}
+.label {
+ float: left;
+ padding: 0 15px 0 0;
+}
+.input {
+  float: right;
+}
+.button {
+  margin: 2rem auto;
+  border: 0;
+  padding: 0.75rem;
+  background: #99f6e4;
+  border-radius: 10px;
+  width: 70%;
+  letter-spacing: 0.5px;
+  font-weight: 700;
+}
+.button:hover {
+  cursor: pointer;
+  background-color: #5eead4;
+}
+.textarea {
+  float: right;
+  width: 169px;
+  padding: 1px 3px;
+}
+@media only screen and (max-width: 768px) { 
+  .container {
+   padding: 3rem 0 0 0;
+  }
+}

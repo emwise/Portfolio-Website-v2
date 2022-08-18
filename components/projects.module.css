@@ -1,0 +1,16 @@
+.title {
+  text-align: center;
+  padding: 2rem;
+}
+
+.background {
+  background-color: #ccfbf1;
+  border-radius: 50px;
+  padding-bottom: 2rem;
+}
+
+.container {
+  padding: 3rem;
+  width: 75%;
+  margin: 0 auto;
+}

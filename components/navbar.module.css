@@ -1,0 +1,126 @@
+.navbar {
+  background-color: #ccfbf1;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 30px 25px;
+  z-index: 1;
+}
+.navbarCollapse{
+  background-color: #ccfbf1;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 30px 25px;
+  z-index: 1;
+}
+
+.list {
+  text-align: center; 
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  overflow: hidden;
+  position: relative;
+}
+
+.listItem {
+  display: inline-block;
+  font-size: 20px;
+  padding: 0px 5%;
+}
+
+.listItemDropdown {
+  display: none;
+  font-size: 20px;
+  padding: 0px 5%;
+}
+
+.listItemDropdownCollapse{
+  text-align: center;
+  margin: 0 auto;
+  height: 0;
+  transition: height 1s;
+}
+
+.listItem:hover {
+  color: green;
+}
+
+.listItemBrand{
+  display: inline-block;
+  font-size: 1.5rem;
+  position: absolute;
+  left: 25px;
+  top: -5px;
+}
+
+.listItemLinkList {
+  position: absolute;
+  right: 30px;
+  top: 0;
+}
+
+.listItemLink {
+  font-size: 0.7rem;
+  display: inline-block;
+  padding: 5px 5px;
+}
+
+.hamburger{
+  display: none;
+}
+
+.hamburgerButton {
+  border: 0 solid;
+  border-radius: 10px;
+  padding: 7px 10px;
+  background-color: transparent;
+}
+
+.hamburgerButton:hover {
+  background-color: #99f6e4;
+}
+
+@media only screen and (max-width: 768px) {
+  .listItemDropdown{
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    height: 35px;
+    transition: height 1s;
+  }
+  .listItemDropdownCollapse{
+    text-align: center;
+    margin: 0 auto;
+    height: 0;
+    transition: height 1s;
+  }
+  .navbarCollapse{
+    background-color: #ccfbf1;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 25px 25px 5px;
+    z-index: 1;
+  }
+  .hamburger {
+    display: inline-block;
+    margin: 0 50px 0 0;
+  }
+  .list {
+    text-align: right;
+  }
+  .listItemLinkList {
+    display: none;
+  }
+  .listItem {
+    display: none;
+  }
+  .navbar {
+    padding: 25px;
+  }
+  .listItemBrand{
+    top: 0;
+  }
+}
