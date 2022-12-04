@@ -14,3 +14,6 @@ Welcome to the second version of my portfolio website! I created this website to
 Feel free to explore the codebase and make suggestions. I posted the code on GitHub to show an example of a simple portfolio website made using Next.js. 
 
 Happy coding!
+
+The out folder is a static version of the website for hosting on S3. The 
+Contact Me form doesnt not work in this state. 
