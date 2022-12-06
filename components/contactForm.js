@@ -18,7 +18,7 @@ export default function ContactForm(){
       email,
       message
     }
-  fetch('/api/contact', {
+  fetch('contact', {
       method: 'POST',
       headers: {
         'Accept': 'application/json, text/plain, */*',
