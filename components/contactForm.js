@@ -18,7 +18,7 @@ export default function ContactForm(){
       email,
       message
     }
-  fetch('contact', {
+  fetch(' https://4pc6wve37j.execute-api.us-east-1.amazonaws.com/prod', {
       method: 'POST',
       headers: {
         'Accept': 'application/json, text/plain, */*',
