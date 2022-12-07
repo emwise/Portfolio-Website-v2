@@ -18,11 +18,14 @@ export default function ContactForm(){
       email,
       message
     }
-  fetch(' https://4pc6wve37j.execute-api.us-east-1.amazonaws.com/prod', {
+  fetch('https://4pc6wve37j.execute-api.us-east-1.amazonaws.com/prod', {
       method: 'POST',
       headers: {
         'Accept': 'application/json, text/plain, */*',
-        'Content-Type': 'application/json'
+        'Content-Type': 'application/json',
+        "Access-Control-Allow-Headers" : "Content-Type",
+        "Access-Control-Allow-Origin": "https://main.d3u5gs8rq54bc4.amplifyapp.com",
+        "Access-Control-Allow-Methods": "OPTIONS,POST,GET"
       },
       body: JSON.stringify(data)
     }).then((res) => {
