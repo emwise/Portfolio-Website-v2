@@ -23,7 +23,7 @@ export default function ContactForm(){
       headers: {
         'Accept': 'application/json, text/plain, */*',
         'Content-Type': 'application/json',
-        'Origin': 'https://main.d3u5gs8rq54bc4.amplifyapp.com'
+        'Origin': 'https://emmanwise.com'
 
       },
       body: JSON.stringify(data)
