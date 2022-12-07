@@ -23,7 +23,8 @@ export default function ContactForm(){
       headers: {
         'Accept': 'application/json, text/plain, */*',
         'Content-Type': 'application/json',
-        'access-control-allow-headers': 'Content-Type,X-Amz-Date,Authorization,X-Api-Key,X-Amz-Security-Token'
+        'Origin': 'https://main.d3u5gs8rq54bc4.amplifyapp.com'
+
       },
       body: JSON.stringify(data)
     }).then((res) => {
