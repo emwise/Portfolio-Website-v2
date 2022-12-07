@@ -22,8 +22,8 @@ export default function ContactForm(){
       method: 'POST',
       headers: {
         'Accept': 'application/json, text/plain, */*',
-        'Content-Type': 'application/json'
-
+        'Content-Type': 'application/json',
+        'access-control-allow-headers': 'Content-Type,X-Amz-Date,Authorization,X-Api-Key,X-Amz-Security-Token'
       },
       body: JSON.stringify(data)
     }).then((res) => {
