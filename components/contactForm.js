@@ -22,10 +22,8 @@ export default function ContactForm(){
       method: 'POST',
       headers: {
         'Accept': 'application/json, text/plain, */*',
-        'Content-Type': 'application/json',
-        "Access-Control-Allow-Headers" : "Content-Type",
-        "Access-Control-Allow-Origin": "https://main.d3u5gs8rq54bc4.amplifyapp.com",
-        "Access-Control-Allow-Methods": "OPTIONS,POST,GET"
+        'Content-Type': 'application/json'
+
       },
       body: JSON.stringify(data)
     }).then((res) => {
