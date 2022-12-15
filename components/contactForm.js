@@ -30,7 +30,7 @@ export default function ContactForm(){
     }).then((res) => {
       console.log('Response received')
       if (res.status === 200) {
-        console.log('Response succeeded!')
+        console.log('Response succeeded')
         setSubmitted(true)
         setName('')
         setSubject('')
