@@ -36,6 +36,7 @@ export default function ContactForm(){
         setSubject('')
         setEmail('')
         setMessage('')
+        alert("Message sent successfully!")
       }
     })
   }
