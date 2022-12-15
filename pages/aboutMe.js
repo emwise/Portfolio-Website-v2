@@ -20,7 +20,7 @@ export default function About(){
         <p>Eventually, my travels took me to Gainesville, FL where I spent almost two years investigating patient blood samples for blood group antibodies at a reference laboratory. In my free time, I dove deeper into OOP while learning about data structures and algorithms using Coursera's <a href="https://www.coursera.org/specializations/cs-fundamentals" target="_blank"> Accelerated Computer Science Fundementals Specialization</a>.</p>
         <p>After, wanting to use my skills to create something more tangible, I began my web development journey with Coursera's <a href="https://www.coursera.org/learn/html-css-javascript-for-web-developers" target="_blank"> HTML, CSS, and Javascript for Web Developers</a>. Through the course I built my first website and ignited my passion for web development.</p>
         <p>Since then I've completed courses on JavaScript, React, Node.js, and Express.js from <a href="https://ilovecoding.org/" target="_blank">iLoveCoding.org</a>, and built <Link href={"/"}><a>many projects</a></Link> along the way.</p>
-        <p>Now, I'am commited to becomming a professional web developer and am learning Next.js! Learn more about my journey and my thoughts on Next.js through <Link href={"/blog"}><a>my blog</a></Link>.</p>
+        <p>Now, I'am commited to becomming a professional developer and am learning about AWS! Learn more about my journey and my thoughts through <Link href={"/blog"}><a>my blog</a></Link>.</p>
       </div>
       <div className={utilStyles.aboutMeImageContainer}>
         <div className={utilStyles.aboutMeImage}>

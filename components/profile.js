@@ -18,7 +18,7 @@ export default function Profile(){
       <h1>Hello!</h1>
       <div>
         <p>I am Emma, a Software Engineer living in Chicago. I started learning to program in my free time, and it quickly became an obsession as I took courses from all over the web.</p>
-        <p>Now, I am committed to improving my skill as I study the web's core concepts like UI/UX design, SEO, and website performance.</p>
+        <p>Now, I am committed to improving my skill as I study the web's core concepts like website performance and hosting.</p>
       </div>
     </div>
   )
