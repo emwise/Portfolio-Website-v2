@@ -3,10 +3,8 @@
  */
  const nextConfig = {
   /* config options here */
-  experimental: {
-    images: {
-      unoptimized: true,
-    },
+  images: {
+    unoptimized: true,
   },
   api: {
 
