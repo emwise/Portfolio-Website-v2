@@ -6,14 +6,16 @@ export default function Profile(){
   return (
     <div className={utilStyles.mainContainer}>
       <div className={styles.container}>
-        <Image
-          priority
-          src="/images/headshot2resized.png"
-          className={styles.image}
-          height={250}
-          width={250}
-          alt="Profile picture of Emma Wise"
-        />
+        <a href='https://github.com/emwise' target="_blank">
+          <Image
+            priority
+            src="/images/headshot2resized.png"
+            className={styles.image}
+            height={250}
+            width={250}
+            alt="Profile picture of Emma Wise"
+          />
+          </a>
       </div>
       <h1>Hello!</h1>
       <div>

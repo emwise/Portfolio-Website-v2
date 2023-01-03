@@ -3,7 +3,7 @@
     {
       "title": "Note Taker",
       "goal": "Create an application which can create, read, update, and delete user submitted notes. The users must be logged in to create notes and can only update and delete their own notes. All of the notes must be publicly visible without being logged in.",
-      "description": "This application takes user input in the form of a note, which is stored securely in a MongoDB database. In order to create a note the user must have an account on the app and be signed in. The user may then view all of their notes as well as edit and delete them. Further, all of the notes written by any user may be viewed publicly without an account on the app. Interaction with the database is facilitated by a custom API created using Express.js. The user interface is minimal, exists only for ease of use interacting with the database API, and is made with the Handlebars template engine.",
+      "description": "This application takes user input in the form of a note, which is stored securely in a MongoDB database. To create a note, the user must have an account on the app and be signed in. The user may then view all their notes as well as edit and delete them. Further, all the notes written by any user may be viewed publicly without an account on the app. Interaction with the database is facilitated by a custom API created using Express.js. The user interface is minimal, exists only for ease of use interacting with the database API, and is made with the Handlebars template engine.",
       "picture1": "/images/projectImages/notetaker.png",
       "alt1": "Home page of the note taker application",
       "picture2": "/images/projectImages/notetaker3.png",
@@ -22,12 +22,12 @@
     },
     {
       "title": "Photography Website",
-      "goal": "Display photos efficiently and elegantly while creating an immserive user experience.",
-      "description": "Photographs are loaded into a carousel scroller, which the user may page through. These photos on an automatic slideshow if the user is idle. Additionally, the user may select a category of photography and the corresponding photos will load in the side-scroller. The website also features the ability to view many photos at once by toggling the alternate view panel at the bottom of the page. Finally the website contains an 'about me' page.",
+      "goal": "Display photos efficiently and elegantly while creating an immersive user experience.",
+      "description": "Photographs are loaded into a carousel scroller, which the user may page through. These photos on an automatic slideshow if the user is idle. Additionally, the user may select a category of photography and the corresponding photos will load in the side-scroller. The website also features the ability to view many photos at once by toggling the alternate view panel at the bottom of the page. Finally, the website contains an 'about me' page.",
       "picture1": "/images/projectImages/mainpageresized.png",
       "alt1": "Main page of the photography website featuring a large cover image and navigation bar at the bottom of the page.",
       "picture2": "/images/projectImages/categorypageresized.png",
-      "alt2": "Alternate view of the images on the website allowing the user to quickly see many images and naviagte to their the photo of their choosing.",
+      "alt2": "Alternate view of the images on the website allowing the user to quickly see many images and navigate to the photo of their choosing.",
       "url": "https://reliable-marzipan-7732fb.netlify.app/"
     }
   ]
